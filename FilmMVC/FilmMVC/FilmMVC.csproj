@@ -200,6 +200,7 @@
     <Compile Include="Controllers\ActorController.cs" />
     <Compile Include="Controllers\DirectorCommentController.cs" />
     <Compile Include="Controllers\DirectorController.cs" />
+    <Compile Include="Controllers\GenreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -210,6 +211,7 @@
     <Compile Include="Models\ActorComment.cs" />
     <Compile Include="Models\Director.cs" />
     <Compile Include="Models\DirectorComment.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -295,6 +297,11 @@
     <Content Include="Views\Director\Details.cshtml" />
     <Content Include="Views\Director\Delete.cshtml" />
     <Content Include="Views\Director\Create.cshtml" />
+    <Content Include="Views\Genre\Index.cshtml" />
+    <Content Include="Views\Genre\Edit.cshtml" />
+    <Content Include="Views\Genre\Details.cshtml" />
+    <Content Include="Views\Genre\Delete.cshtml" />
+    <Content Include="Views\Genre\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
