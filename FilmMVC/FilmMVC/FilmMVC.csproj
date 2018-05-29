@@ -205,6 +205,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="Controllers\MovieReviewController.cs" />
+    <Compile Include="Controllers\MovieStoreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -316,6 +317,11 @@
     <Content Include="Views\MovieReview\Details.cshtml" />
     <Content Include="Views\MovieReview\Delete.cshtml" />
     <Content Include="Views\MovieReview\Create.cshtml" />
+    <Content Include="Views\MovieStore\Index.cshtml" />
+    <Content Include="Views\MovieStore\Edit.cshtml" />
+    <Content Include="Views\MovieStore\Details.cshtml" />
+    <Content Include="Views\MovieStore\Delete.cshtml" />
+    <Content Include="Views\MovieStore\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
